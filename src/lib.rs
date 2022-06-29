@@ -1,5 +1,13 @@
-const DEMO: &str = "Hello word on github repo";
+/// Adds one to the number given
+///
+/// # Examples
+///  
+/// ```
+/// let arg = 5;
+/// let answer  = hellow::add_one(arg);
+/// assert_eq!(6, answer);
+/// ```
 
-fn saludo() {
-    println!("{:?}", DEMO);
+pub fn add_one(x: i32) -> i32 {
+    x + 1
 }
